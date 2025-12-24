@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超好记 - 用户协议</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .app-name {
+            font-size: 28px;
+            font-weight: 700;
+            color: #007AFF;
+            margin-bottom: 8px;
+        }
+        
+        .agreement-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 15px;
+        }
+        
+        .meta-info {
+            color: #86868b;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .content {
+            font-size: 15px;
+            color: #515154;
+            margin-bottom: 16px;
+        }
+        
+        .warning-box {
+            background-color: #fff8f8;
+            border: 2px solid #ff3b30;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        
+        .warning-title {
+            font-size: 17px;
+            font-weight: 700;
+            color: #d70015;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .warning-title:before {
+            content: "⚠️";
+            margin-right: 8px;
+            font-size: 18px;
+        }
+        
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #007AFF;
+            padding: 18px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .contact-info {
+            background-color: #f2f8ff;
+            border: 1px solid #d1e6ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        .contact-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+        
+        .footer-note {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #fff8e6;
+            border: 1px solid #ffd54f;
+            border-radius: 10px;
+            color: #e65100;
+            font-weight: 600;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #86868b;
+            font-size: 14px;
+        }
+        
+        .list-item {
+            margin-left: 20px;
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #1d1d1f;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .app-name {
+                font-size: 24px;
+            }
+            
+            .agreement-title {
+                font-size: 20px;
+            }
+            
+            .warning-box, .highlight-box {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-name">超好记</div>
+            <div class="agreement-title">用户协议</div>
+            <div class="meta-info">生效日期：[2025年12月24日]</div>
+            <div class="meta-info">最后更新日期：[2025年12月24日]</div>
+        </div>
+
+        <div class="content">
+            欢迎使用《超好记》（以下简称"本应用"或"我们"）。本应用是一款专注于笔记记录和待办事项管理的工具。请您在使用本应用前，仔细阅读并理解本用户协议（以下简称"本协议"）的全部内容。<strong>一旦您下载、安装或使用本应用，即表示您已阅读、理解并同意接受本协议的所有条款约束。如您不同意本协议的任何内容，请立即停止使用本应用。</strong>
+        </div>
+
+        <div class="section">
+            <div class="section-title">一、服务说明</div>
+            <div class="content">
+                1.1 本应用为您提供创建、编辑、管理、同步和存储笔记及待办事项的功能。数据存储采用本地存储与Apple iCloud同步相结合的方式。
+            </div>
+            <div class="content">
+                1.2 <strong>本应用无需注册或登录独立账户。</strong>所有操作均在您的设备本地完成。iCloud同步功能基于您已在iOS/iPadOS系统设置中登录的Apple ID自动启用，这是Apple系统级服务的功能集成。
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">二、使用条件</div>
+            <div class="content">
+                2.1 您使用本应用时，应确保您已经充分了解您所使用的设备（iPhone/iPad）的操作系统功能，特别是iCloud服务的设置与管理。
+            </div>
+            <div class="content">
+                2.2 您应保证使用本应用的行为符合所在国家/地区的法律法规，且不侵犯任何第三方的合法权益。
+            </div>
+            <div class="content">
+                2.3 若您希望启用跨设备数据同步功能，您需要在设备的系统设置中登录您的Apple ID并开启iCloud Drive服务。此过程完全由Apple系统管理，与本应用无关。
+            </div>
+        </div>
+
+        <div class="warning-box">
+            <div class="warning-title">三、重要声明：数据备份与风险免责</div>
+            
+            <div class="content">
+                <strong>3.1 数据存储的依赖性与局限性：</strong> 本应用的数据存储高度依赖于：
+                <div class="list-item">(a) 您设备的正常运行和本地存储安全；</div>
+                <div class="list-item">(b) 您设备系统已登录的Apple ID账户的状态及Apple iCloud服务的稳定性和可用性。</div>
+                <strong>这些系统级服务和硬件因素均完全超出开发者的控制范围。</strong>
+            </div>
+            
+            <div class="content">
+                <strong>3.2 数据丢失风险：</strong> 尽管我们尽力确保应用本地运行的稳定性，但以下情况（包括但不限于）可能导致您的数据<strong>部分或全部丢失、损坏、不同步或无法访问</strong>，且相关风险<strong>完全由您自行承担</strong>：
+                <div class="list-item">• 您的设备丢失、损坏、系统重置、恢复出厂设置或系统升级；</div>
+                <div class="list-item">• 您主动删除本应用、清除应用数据或缓存；</div>
+                <div class="list-item">• 您在系统设置中退出Apple ID、关闭iCloud Drive服务，或单独关闭本应用的iCloud同步权限；</div>
+                <div class="list-item">• Apple iCloud服务发生中断、故障、数据回滚、存储空间不足、服务策略变更或被终止；</div>
+                <div class="list-item">• 因网络环境问题导致同步失败或产生数据冲突；</div>
+                <div class="list-item">• 其他不可抗力（如自然灾害、网络攻击、政府行为等）或任何意外情况。</div>
+            </div>
+            
+            <div class="content">
+                <strong>3.3 强制性备份义务：</strong> 鉴于上述风险，<strong>您明确知晓并同意</strong>，本应用<strong>并非</strong>永久、绝对可靠的数据存储服务。对于任何您认为<strong>重要、珍贵或不可替代</strong>的笔记或待办事项数据，<strong>您必须自行采取定期、可靠的独立备份措施。</strong>我们强烈建议您通过截图、手动复制到其他应用，或利用本应用可能提供的导出功能，将重要数据备份至<strong>其他独立的存储媒介或云服务</strong>中。
+            </div>
+            
+            <div class="content">
+                <strong>3.4 无责任保证与免责：</strong> 本应用作为工具软件，以"按现状"和"可得到"的状态提供。<strong>在任何情况下，开发者均不承诺或保证您的数据永不丢失、损坏或同步无误。对于因使用或无法使用本应用，或由于本协议3.2条提及的任何原因所导致的任何数据问题及由此引发的任何直接或间接损失，开发者概不承担任何责任。</strong>您理解并确认，使用本应用的<strong>全部风险由您自行承担</strong>。
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">四、知识产权</div>
+            <div class="content">
+                4.1 本应用及其相关的所有代码、技术、界面设计、Logo、"超好记"名称等知识产权，均归开发者所有。本协议并未授予您任何这些知识产权。
+            </div>
+            <div class="content">
+                4.2 您在使用本应用过程中所创建、输入的全部内容数据，其知识产权或相关权利<strong>归您本人所有</strong>。开发者仅通过本应用提供数据管理工具，不主张任何用户内容的所有权。
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">五、服务变更与中止</div>
+            <div class="content">
+                5.1 开发者保留随时修改、暂停（包括暂停iCloud同步支持）或终止本应用任何功能的权利，恕不另行单独通知。
+            </div>
+            <div class="content">
+                5.2 若应用停止运营，我们将在合理可行的前提下，通过应用内公告、App Store产品页更新等方式告知您，并建议您及时导出和备份全部个人数据。
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">六、免责条款</div>
+            <div class="content">
+                6.1 开发者不对Apple iCloud服务的可用性、稳定性、安全性或数据完整性提供任何担保或承担责任。有关iCloud服务的问题，请直接联系Apple支持。
+            </div>
+            <div class="content">
+                6.2 您使用本应用所从事的任何行为及由此产生的后果，均由您自行负责。开发者不对您使用本应用存储的内容的合法性、真实性、准确性负责。
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">七、协议修改与法律适用</div>
+            <div class="content">
+                7.1 开发者有权根据需要不时修订本协议。修订后的协议将在本页面公布，并更新"最后更新日期"。您继续使用本应用即被视为接受修订后的协议。
+            </div>
+            <div class="content">
+                7.2 本协议的订立、执行和解释及争议的解决均适用中华人民共和国法律（仅为本协议之目的，不包括香港、澳门和台湾地区法律）。
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <div class="contact-title">八、联系与争议解决</div>
+            <div class="content">
+                8.1 如您对本协议有任何疑问，可通过以下方式联系我们：
+                <div class="list-item">• 开发者邮箱：chinanotex@163.com</div>
+            </div>
+            <div class="content">
+                8.2 因本协议引起的或与本协议有关的任何争议，双方应首先尝试友好协商解决；协商不成的，任何一方均有权将争议提交至开发者所在地有管辖权的人民法院诉讼解决。
+            </div>
+        </div>
+
+        <div class="footer-note">
+            最终确认与重要提醒：请您务必理解，妥善、定期地备份重要数据是您自身的责任。继续使用《超好记》即表示您已完整阅读、特别关注并完全理解本协议第三条关于数据风险与备份义务的全部内容，知晓所有潜在风险，并自愿承担一切后果。
+        </div>
+
+        <div class="footer">
+            Copyright © [年份] 超好记. 保留所有权利。
+        </div>
+    </div>
+</body>
+</html>
